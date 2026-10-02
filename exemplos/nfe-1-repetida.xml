@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00"><NFe><infNFe Id="NFe43260900000000000191550010000000011000000011" versao="4.00">
+<ide><cUF>43</cUF><mod>55</mod><serie>1</serie><nNF>1</nNF><dhEmi>2026-09-05T10:00:00-03:00</dhEmi></ide>
+<emit><CNPJ>00000000000191</CNPJ><xNome>Empresa Exemplo Ltda</xNome></emit>
+<dest><CNPJ>11111111000111</CNPJ><xNome>Cliente Teste SA</xNome></dest>
+<det nItem="1"><prod><cProd>A1</cProd><xProd>Parafuso 10mm</xProd><NCM>73181500</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>100.0000</qCom><vUnCom>0.5000</vUnCom><vProd>50.00</vProd></prod>
+<imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><vBC>50.00</vBC><pICMS>18.00</pICMS><vICMS>9.00</vICMS></ICMS00></ICMS><IPI><IPITrib><CST>50</CST><vIPI>2.50</vIPI></IPITrib></IPI><PIS><PISAliq><CST>01</CST><vPIS>0.33</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vCOFINS>1.52</vCOFINS></COFINSAliq></COFINS></imposto></det>
+<det nItem="2"><prod><cProd>B2</cProd><xProd>Porca 10mm</xProd><NCM>73181600</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>100.0000</qCom><vUnCom>0.3000</vUnCom><vProd>30.00</vProd></prod>
+<imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><vBC>30.00</vBC><pICMS>18.00</pICMS><vICMS>5.40</vICMS></ICMS00></ICMS><PIS><PISAliq><CST>01</CST><vPIS>0.20</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vCOFINS>0.91</vCOFINS></COFINSAliq></COFINS></imposto></det>
+<total><ICMSTot><vNF>82.50</vNF></ICMSTot></total></infNFe></NFe>
+<protNFe><infProt><cStat>100</cStat></infProt></protNFe></nfeProc>
