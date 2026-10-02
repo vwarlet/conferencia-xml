@@ -79,7 +79,10 @@ summary { cursor: pointer; font-weight: 600; }
 footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--mute); font-size: .85rem; }
 @media (max-width: 840px) { h1 { font-size: 2.25rem; } .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 640px) { #app { padding: 18px 16px 36px; } .app-shell { gap: 26px; } h1 { font-size: 1.85rem; white-space: normal; } .lead { text-align: left; } .feature-grid, .resumo { grid-template-columns: 1fr; } .antes { grid-template-columns: 1fr; } .seta { transform: rotate(90deg); justify-self: center; } .kpis { grid-template-columns: 1fr; } .hero-badges { gap: 10px 16px; } }
-.topo { max-width: 1480px; width: 100%; margin: 0 auto; padding: 16px 40px 0; text-align: right; }
+.topo { display: flex; justify-content: flex-end; align-items: center; gap: 10px; max-width: 1480px; width: 100%; margin: 0 auto; padding: 16px 40px 0; }
+.inicio { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 42px; margin: 0; padding: 8px 14px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); box-shadow: none; font-size: .9rem; }
+.inicio svg { width: 17px; height: 17px; }
+.inicio:hover { filter: none; border-color: var(--accent); color: var(--accent); box-shadow: none; }
 .tema {
   margin: 0; padding: 0; width: 42px; height: 42px; display: inline-flex; align-items: center; justify-content: center;
   background: transparent; color: var(--ink); border: 1px solid var(--line); border-radius: 999px;
@@ -103,6 +106,7 @@ footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line);
 .previa th:nth-child(6), .previa td:nth-child(6) { width: 16%; }
 .previa td { border-top: 1px solid var(--line); }
 @media (max-width: 560px) {
+  .topo { padding: 12px 16px 0; }
   .resumo { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .previa th:nth-child(3), .previa td:nth-child(3) { display: none; }
   .previa th:nth-child(1), .previa td:nth-child(1) { width: 10%; }

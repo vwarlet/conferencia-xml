@@ -233,7 +233,7 @@ export function render(box) {
     </div>
 
     <footer class="site-footer">
-      <p>Ferramenta de apoio para conferência fiscal. Sempre revise os resultados antes de usar em processos contábeis ou fiscais.</p>
+      <p>Ferramenta de apoio para conferência fiscal. Sempre revise os resultados antes de usar em processos contábeis ou fiscais. Os arquivos XML são processados localmente; métricas de navegação são coletadas pelo Google Analytics.</p>
     </footer>`;
 
   const drop = box.querySelector('.drop');

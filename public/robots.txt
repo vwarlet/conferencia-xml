@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://conferencia-xml.pages.dev/sitemap.xml

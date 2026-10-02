@@ -23,8 +23,9 @@ const iconeTema = (darkMode) => darkMode
   : '<svg viewBox="0 0 24 24" aria-hidden="true"><path class="lua-fill" d="M21 12.8A9 9 0 0 1 11.2 3a9 9 0 1 0 9.8 9.8Z"></path></svg>';
 const topo = document.createElement('header');
 topo.className = 'topo';
-topo.innerHTML = '<button class="tema" type="button" aria-label="Alternar tema"></button>';
-const btn = topo.firstChild;
+topo.innerHTML = '<button class="inicio" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-6v-7h-4v7H4a1 1 0 0 1-1-1V10Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Início</span></button><button class="tema" type="button" aria-label="Alternar tema"></button>';
+const btnInicio = topo.querySelector('.inicio');
+const btn = topo.querySelector('.tema');
 const rotulo = () => {
   const darkMode = escuro();
   btn.innerHTML = iconeTema(darkMode);
@@ -60,4 +61,5 @@ function route() {
   }
 }
 window.addEventListener('hashchange', route);
+btnInicio.onclick = route;
 route();

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Confer&#234;ncia XML Fiscal</title>
+  <desc id="description">Organize notas fiscais XML e confira os resultados em uma planilha Excel.</desc>
+  <rect width="1200" height="630" fill="#f1f5f2"/>
+  <path d="M0 0h610v630H0z" fill="#123d2d"/>
+  <path d="M610 0h18v630h-18z" fill="#72b79a"/>
+  <text x="76" y="112" fill="#a9d6c1" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2">FERRAMENTA DE CONFER&#202;NCIA FISCAL</text>
+  <text x="76" y="226" fill="#ffffff" font-family="Arial, sans-serif" font-size="61" font-weight="700">Confer&#234;ncia XML</text>
+  <text x="76" y="300" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="600">NF-e e NFC-e</text>
+  <text x="76" y="365" fill="#d8e7df" font-family="Arial, sans-serif" font-size="24">Lotes organizados em relat&#243;rios</text>
+  <text x="76" y="400" fill="#d8e7df" font-family="Arial, sans-serif" font-size="24">Excel claros e prontos para revisar.</text>
+  <rect x="76" y="472" width="330" height="52" rx="7" fill="#d4eadc"/>
+  <circle cx="102" cy="498" r="7" fill="#126b50"/>
+  <text x="122" y="505" fill="#164a35" font-family="Arial, sans-serif" font-size="18" font-weight="700">PROCESSAMENTO LOCAL</text>
+  <rect x="686" y="72" width="446" height="486" rx="12" fill="#dbe4de" opacity=".7"/>
+  <rect x="670" y="56" width="446" height="486" rx="12" fill="#ffffff" stroke="#d4ded7" stroke-width="2"/>
+  <rect x="670" y="56" width="446" height="70" rx="12" fill="#126b50"/>
+  <path d="M670 114h446v12H670z" fill="#126b50"/>
+  <text x="704" y="101" fill="#ffffff" font-family="Arial, sans-serif" font-size="23" font-weight="700">Resumo do lote</text>
+  <text x="704" y="163" fill="#52645a" font-family="Arial, sans-serif" font-size="15" font-weight="700">INDICADOR</text>
+  <text x="1010" y="163" fill="#52645a" font-family="Arial, sans-serif" font-size="15" font-weight="700">RESULTADO</text>
+  <path d="M700 180h386M700 234h386M700 288h386M700 342h386M700 396h386M700 450h386" stroke="#e1e8e3" stroke-width="2"/>
+  <rect x="700" y="182" width="386" height="52" fill="#f0f5f1"/>
+  <text x="704" y="215" fill="#26372e" font-family="Arial, sans-serif" font-size="18">Notas v&#225;lidas</text>
+  <text x="1010" y="215" fill="#26372e" font-family="Arial, sans-serif" font-size="18" font-weight="700">12</text>
+  <text x="704" y="269" fill="#26372e" font-family="Arial, sans-serif" font-size="18">Valor total</text>
+  <text x="1010" y="269" fill="#126b50" font-family="Arial, sans-serif" font-size="18" font-weight="700">R$ 8.420,50</text>
+  <rect x="700" y="290" width="386" height="52" fill="#f0f5f1"/>
+  <text x="704" y="323" fill="#26372e" font-family="Arial, sans-serif" font-size="18">Itens analisados</text>
+  <text x="1010" y="323" fill="#26372e" font-family="Arial, sans-serif" font-size="18" font-weight="700">38</text>
+  <text x="704" y="377" fill="#26372e" font-family="Arial, sans-serif" font-size="18">Totais por CFOP</text>
+  <text x="1010" y="377" fill="#26372e" font-family="Arial, sans-serif" font-size="18" font-weight="700">Conferidos</text>
+  <rect x="700" y="424" width="386" height="78" rx="6" fill="#f8eee5"/>
+  <circle cx="721" cy="451" r="6" fill="#b96b2c"/>
+  <text x="739" y="457" fill="#704322" font-family="Arial, sans-serif" font-size="16" font-weight="700">Pontos de aten&#231;&#227;o</text>
+  <text x="720" y="483" fill="#704322" font-family="Arial, sans-serif" font-size="15">Duplicidades, cancelamentos e numera&#231;&#227;o.</text>
+</svg>
